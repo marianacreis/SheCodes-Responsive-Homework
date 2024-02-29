@@ -90,3 +90,23 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 38px;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  h3 {
+    margin-top: 10px;
+  }
+
+  .mobile-links {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
